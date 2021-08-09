@@ -208,7 +208,7 @@ MonoBehaviour:
   onValueChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_IsOn: 1
+  m_IsOn: 0
 --- !u!1 &164551170
 GameObject:
   m_ObjectHideFlags: 0
@@ -819,7 +819,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &805375783
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1033,6 +1033,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f7185a4648c2cdc47892185fe1452b6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  trapMat: {fileID: 2100000, guid: f0fe81d53523df3488efd4f319b12b52, type: 2}
+  goalMat: {fileID: 2100000, guid: 5a33487d631fbb847a454f3f99e70d42, type: 2}
+  colorblindMode: {fileID: 36937912}
 --- !u!1 &1332168011
 GameObject:
   m_ObjectHideFlags: 0
@@ -1424,7 +1427,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1809196499
 RectTransform:
   m_ObjectHideFlags: 0
