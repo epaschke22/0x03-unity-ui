@@ -37,6 +37,11 @@ public class PlayerController : MonoBehaviour
         moveVector = new Vector3(direction.x, 0, direction.y);
 	}
 
+    public void PauseMenu()
+	{
+        SceneManager.LoadScene("menu");
+    }
+
     void OnTriggerEnter(Collider other)
 	{
         if (other.gameObject.CompareTag("Pickup"))
@@ -64,6 +69,7 @@ public class PlayerController : MonoBehaviour
             winLoseUI.color = Color.green;
             winLoseText.color = Color.black;
             winLoseText.text = "You win!";
+            StartCoroutine(LoadScene(3));
         }
     }
 
